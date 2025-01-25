@@ -1,0 +1,93 @@
+{
+    "name": "My_InputSystem",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "39cfcbc9-ecb5-413a-83a8-21ef17cbfef4",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "56d8d07f-8d15-4527-9996-3924aa7e2201",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bf7b7791-03b1-4f64-9c76-a9788cb1e418",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TouchControl",
+            "id": "e971f8a6-3687-4389-8470-802a15404bd5",
+            "actions": [
+                {
+                    "name": "Pinch",
+                    "type": "Value",
+                    "id": "6d4116ba-7d62-49e9-ad8e-a0970cbe6a1f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DoubleTap",
+                    "type": "Value",
+                    "id": "860e7d9e-c384-49fd-a050-5e24fd84cf23",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c22785b4-103c-48e3-a94b-d48bacb0e3dc",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pinch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6460ace3-e3c2-49c1-8d01-5708f18d7110",
+                    "path": "<Touchscreen>/touch1/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pinch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8be08b3-ee49-4422-9ef5-cc7bc0d94a92",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoubleTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

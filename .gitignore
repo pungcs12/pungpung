@@ -1,0 +1,47 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio / Rider
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity auto-generated meta files
+*.pidb.meta
+
+# Unity Cache Server
+[Ss]erver/
+
+# Other files and folders to ignore
+*.swp
+*.lock
+*.lock.json
+*.log
+*.asset
+*.prefs
+*.mode
+[Bb]ackup
+*[Bb]ackup
+
+
+# Sensitive or user-specific files
+*.unityproj
+.DS_Store
